@@ -4,6 +4,11 @@
   --text-color: #ffffff;
   --text-secondary: rgba(255, 255, 255, 0.7);
   --border-color: rgba(255, 255, 255, 0.1);
+
+  /* TicTacToe Classic custom theme vars */
+  --t3t-primary: #222222;
+  --t3t-secondary: #ffffff;
+  --t3t-accent: #4caf50;
 }
 
 body {
@@ -19,6 +24,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  margin-bottom: 3rem;
 }
 
 .navbar {
